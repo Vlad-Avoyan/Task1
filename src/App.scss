@@ -1,0 +1,101 @@
+.parent {
+    display: flex;
+  
+  }
+  .conteiner {
+    width: 500px;
+    height: 200px;
+  
+  }
+  .name {
+    height: 30px;
+    border: 2px solid black;
+  
+    .blue {
+        border-color: blue;
+    }
+  
+    &.red {
+        border-color: red;
+    }
+  }
+  .day {
+    margin-left: 20px;
+
+
+    height: 32px;
+    border: 2px solid black;
+  
+    &.blue {
+        border-color: blue;
+    }
+    &.red {
+        border-color: red;
+    }
+  
+  }
+  .button {
+    width: 150px;
+    height: 32px;
+    border: 1px solid silver;
+    float: right;
+    cursor: pointer;
+  
+  }
+  .dropDown {
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-left: -150px;
+  }
+  .sel {
+    width: 100px;
+    height: 33px;
+  }
+  .localAdd {
+    width: 90px;
+    height: 35px;
+  
+  }
+  .buttonDiv {
+    width: 70px;
+    height: 35px;
+    margin-left: 30px;
+  }
+  .addPersonDiv {
+    width: 700px;
+    height: 150px;
+    display: block;
+    display: flex;
+    border: 2px solid;
+  }
+  .changeInput {
+    width: 180px;
+    height: 35px;   
+    margin-right: 20px;
+    padding-left: 50px;
+    padding-top: 20px;  
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+  }
+  .changeDate {
+    width: 180px;
+    height: 35px;   
+  }
+  .changeSelect {
+    width: 100px;
+    height: 38px;
+  }
+  .editButton {
+    width: 90px;
+    height: 35px;
+  }
+  .deleteFromeLocacl {
+    width: 150px;
+    height: 45px;
+    margin-top: 10px;
+  }
+  .dayAge {
+    padding-left: 10px;
+  }
