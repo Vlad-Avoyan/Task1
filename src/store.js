@@ -1,6 +1,6 @@
 import App from "./App";
 
-function reducer (state = App.name, action)  {
+function reducer (state = App, action)  {
     switch(action.type) {
       case "SET_NAME":
         return {

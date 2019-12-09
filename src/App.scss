@@ -9,9 +9,8 @@
   }
   .name {
     height: 30px;
-    border: 2px solid black;
   
-    .blue {
+    &.blue {
         border-color: blue;
     }
   
@@ -54,13 +53,17 @@
   }
   .localAdd {
     width: 90px;
-    height: 35px;
-  
+    height: 48px;
+    margin-top: 10px
   }
   .buttonDiv {
     width: 70px;
     height: 35px;
     margin-left: 30px;
+  }
+  .personButton {
+    width: 90px;
+    height: 35px;
   }
   .addPersonDiv {
     width: 700px;
